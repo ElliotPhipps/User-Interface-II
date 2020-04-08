@@ -1,1 +1,9 @@
 /* Add CSS styling here */
+body{
+    background-color: aqua;
+}
+
+img {
+    width: 20%;
+    height: 20%;
+}
