@@ -1,1 +1,277 @@
 /* Add CSS styling here */
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    background-color: aqua;
+    
+}
+
+img {
+
+    width: 50%;
+
+    height: 70%;
+    
+}
+
+#nav-bar{
+    
+    font-size: larger;
+    
+    background-color:#fde769;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+#nav-bar nav a {
+
+    text-decoration: none;
+
+    
+
+}
+
+nav a:hover {
+
+    border: solid;
+
+    background-color: aqua;
+
+    text-decoration: none;
+    
+}
+
+.about {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    margin: 5%;
+
+    height: 10%;
+    
+}
+
+.about img {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 30%;
+
+    height: 50%;
+
+    margin: 0 5%;
+
+}
+
+#about-section {
+    
+    width: 60%;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    align-items: center;
+   
+}
+
+button a {
+
+    text-decoration: none;
+
+}
+
+#about-section button {
+
+    background-color: #fde769;
+
+}
+
+button:hover {
+
+    background-color: aqua;
+
+    border: 1px solid black;
+
+}
+
+#about-section button:hover {
+
+    background-color: aqua;
+
+}
+
+.project-container {
+
+    display: flex;
+
+    flex-direction: row;
+    
+    margin: 1%;
+
+    padding: 1%;
+
+}
+
+.p a {
+
+    text-decoration: none;
+
+}
+
+.p a:hover {
+
+    background-color: #fde769;
+
+    border: solid #fde769;
+
+}
+
+.project {
+    
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    flex-direction: column;
+    
+}
+
+footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    background-color: #fde769;
+
+}
+
+footer button {
+
+    background-color: aqua;
+
+}
+
+footer button:hover {
+
+    background-color: #fde769;
+
+}
+
+footer a {
+ 
+    align-items: center;
+    
+}
+
+/*media queries*/
+
+/*Max width = 800px*/
+
+@media (max-width: 800px) {
+
+    #nav-bar {
+
+        align-items: center;
+
+    }
+
+    #nav-bar nav {
+
+        margin-bottom: 1%;
+
+    }
+
+    .about {
+
+        flex-direction: column;
+
+        align-items: center;
+
+        margin-bottom: 2%;
+
+    }
+
+    .about img {
+
+        margin: 0 5%;
+
+        justify-content: center;
+    }
+
+}
+
+/*Max width = 500px*/
+
+@media (max-width: 500px) {
+
+    #nav-bar nav {
+
+        padding: 0 2%;
+    }
+
+    #project4, #project5, #project6, .project-container2 {
+
+        display: none;
+
+    }
+
+    .project-container {
+
+        flex-direction: column;
+
+    }
+
+}
+
+/*iPhone 360 x 640*/
+
+@media screen and (max-width:360px) and (max-height:640px) {
+
+    #project3, #project4, #project5, #project6, #project7, #project8 {
+
+        display: none;
+
+    }
+
+}
+
+/*laptop 1366 x 768*/
+
+@media screen and (max-width: 1366px) and (max-height:768) {
+
+
+
+}
+
+/*widescreen 1920 x 1080*/
