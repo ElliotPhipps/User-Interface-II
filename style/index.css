@@ -1,1 +1,232 @@
 /* Add CSS styling here */
+* {
+
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    background-color: aqua;
+    
+}
+
+img {
+
+    width: 30%;
+
+    height: 70%;
+    
+}
+
+#nav-bar{
+    
+    font-size: larger;
+    
+    background-color:#fde769;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    align-items: flex-start;
+
+}
+
+#nav-bar nav a {
+
+    text-decoration: none;
+
+    border: 1px solid black;
+
+}
+
+nav a:hover {
+
+    border: solid;
+
+    background-color: aqua;
+
+    text-decoration: none;
+    
+}
+
+.about {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+
+    margin: 5%;
+
+    height: 300px;
+    
+}
+
+.about img {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+#about-section {
+    
+    width: 60%;
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-direction: column;
+
+    align-items: center;
+   
+}
+
+button a {
+
+    text-decoration: none;
+
+}
+
+button:hover {
+
+    background-color: aqua;
+
+    border: 1px solid white;
+
+}
+
+.project-container {
+
+    display: flex;
+    
+    justify-content: space-around;
+    
+    margin: 10%;
+
+}
+
+.project-container2 {
+
+    display: flex;
+    
+    justify-content: space-around;
+    
+    margin: 10%;
+   
+}
+
+.p a {
+
+    text-decoration: none;
+
+}
+
+.p:hover {
+
+    background-color: #fde769;
+
+    border: 1px solid white;
+
+}
+
+#project1 {
+    
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    flex-direction: column;
+    
+}
+
+#project2 {
+    
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    flex-direction: column;
+    
+}
+
+#project3 {
+    
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    flex-direction: column;
+    
+}
+
+#project4 {
+    
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    flex-direction: column;
+    
+}
+
+#project5 {
+    
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    flex-direction: column;
+    
+}
+
+#project6 {
+    
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: center;
+
+    flex-direction: column;
+   
+}
+
+footer {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    background-color: #fde769;
+
+}
+
+footer a {
+ 
+    justify-content: space-between;
+    
+}
